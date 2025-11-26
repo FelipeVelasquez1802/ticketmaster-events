@@ -2,6 +2,7 @@ import {useState} from "react";
 
 const Navbar = ({onSearch}) => {
     const [search, setSearch] = useState("");
+
     const handleInputChange = (event) => {
         setSearch(event.target.value);
     }
